@@ -1,0 +1,89 @@
+html {
+    background-color:rgb(255, 222, 144);
+}
+tr {
+    background-color:rgb(254, 242, 202);
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+h3 {
+    text-align: center;
+    font-size:3vw;
+}
+h2 {
+    text-align:center;
+}
+ol {
+    text-align: center;
+    list-style-position: inside;
+    font-size: 2vw;
+}
+#navbar{
+    background-color: rgb(254, 242, 202);
+    border-style:groove;
+    border-color: rgb(41, 41, 41);
+    border-width: thick 8px thick 8px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.navbar th {
+    border-style: groove;
+    padding: 5px
+}
+
+.navbar{
+    background-color:#ffd165;
+    border: 3px solid;
+    border-color: #ffd165;
+    position: sticky;
+    top: 0px
+}
+header{
+    font-size:70px;
+    background-color:#ffd165;
+    text-align: center;
+    border:3px solid #ffd165;
+    font-weight: bold;
+}
+footer{
+    background-color: #C2A878;
+    font-size: 20px;
+    margin:0px;
+}
+.profile{
+    text-align: center;
+    background-color: #FFC847;
+}
+h1 {
+    font-size: 5vw;
+    text-align: center;
+    background-color:#FFC847 ;
+}
+.even-row{
+    background-color: #FADA5E;
+}
+.dropdown{
+    text-align: center;
+    display:inline-block;
+}
+h6 {
+    font-size: 30px;
+}
+.dropdown-content{
+    text-align: center;
+    display: none;
+    position:absolute;
+    background-color: #FADA5E;
+    padding: 2px;
+    box-shadow: 5px 6px 12px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.active{
+    background-color: #FADA5E;
+}
+.videos{
+    text-align: center;
+}
